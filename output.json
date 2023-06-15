@@ -1,7 +1,9 @@
 {
   "bg": {
-    "value": "#bf3bbe",
-    "type": "color"
+    "100": {
+      "value": "#bf3bbe",
+      "type": "color"
+    }
   },
   "tokenSetOrder": {
     "0": {
