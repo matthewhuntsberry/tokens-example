@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "npx token-transformer tokens.json output.json && npx style-dictionary build"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "husky": "^8.0.3",
+    "jest": "^29.5.0",
     "token-transformer": "^0.0.33"
   }
 }
